@@ -229,7 +229,7 @@ export default function Home() {
             <Search className="search-icon" />
             <input
               type="text"
-              placeholder="Search location..."
+              placeholder="Search location on enter..."
               className="search-input"
               value={searchInput}
               onChange={(e) => setSearchInput(e.target.value)}
