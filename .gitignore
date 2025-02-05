@@ -10,4 +10,4 @@
 /build
 
 # local env files
-.env*.local
+.env
