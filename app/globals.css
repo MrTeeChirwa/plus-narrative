@@ -15,10 +15,12 @@ body {
 
 /* Custom switch styles */
 .switch-root {
-  @apply relative h-7 w-14 cursor-pointer rounded-full transition-colors;
-  background: linear-gradient(to right, #AD36CB 27%, #333333 69%);
+  @apply relative h-6 w-20 cursor-pointer rounded-full transition-colors;
+  background: linear-gradient(90deg, #33E017 0%, rgba(149, 241, 134, 0) 100%);
+  border-radius: 22px;
 }
 
+/* Rectangle 5 */
 .switch-thumb {
   @apply block h-5 w-5 rounded-full bg-white transition-transform;
   transform: translateX(4px) translateY(4px);
