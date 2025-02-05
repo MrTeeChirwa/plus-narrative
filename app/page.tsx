@@ -105,8 +105,9 @@ export default function Home() {
               <Card key={index} className="forecast-card">
                 <p className="forecast-time">
                   {new Date(item.dt * 1000).toLocaleTimeString('en-US', {
-                    hour: 'numeric',
-                    hour12: true
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false
                   })}
                 </p>
                 <div className="forecast-icon-container">
@@ -134,8 +135,9 @@ export default function Home() {
               <Card key={index} className="forecast-card">
                 <p className="forecast-time">
                   {new Date(item.dt * 1000).toLocaleTimeString('en-US', {
-                    hour: 'numeric',
-                    hour12: true
+                      hour: '2-digit',
+                      minute: '2-digit',
+                      hour12: false
                   })}
                 </p>
                 <div className="forecast-icon-container">
