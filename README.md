@@ -2,7 +2,7 @@
 
 # To install dependencies, run:
 
-Replace the env NEXT_PUBLIC_OPENWEATHER_API_KEY value
+NB: Replace the env NEXT_PUBLIC_OPENWEATHER_API_KEY value
 
 ```Bash
 
