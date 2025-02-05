@@ -8,7 +8,7 @@
 
 ``` git clone git@github.com:MrTeeChirwa/plus-narrative.git```
 
-#Terminal
+# Terminal
 
 ```npm install```
 
