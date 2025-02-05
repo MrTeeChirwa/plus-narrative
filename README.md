@@ -4,7 +4,12 @@
 
 ## To install dependencies, run:
 
-```Terminal```
-npm install
+## Clone the app
 
-npm run dev
+``` git clone git@github.com:MrTeeChirwa/plus-narrative.git```
+
+##Terminal
+
+```npm install```
+
+```npm run dev```
