@@ -1,15 +1,11 @@
 # Plus Narrative Assessment
 
-# Installation
-
 # To install dependencies, run:
 
-# Clone the app
+```Bash
 
-``` git clone git@github.com:MrTeeChirwa/plus-narrative.git```
+git clone git@github.com:MrTeeChirwa/plus-narrative.git
 
-# Terminal
+npm install
 
-```npm install```
-
-```npm run dev```
+npm run dev
