@@ -2,9 +2,9 @@
 
 ## Installation
 
-To install dependencies, run:
+## To install dependencies, run:
 
 ```Terminal```
 npm install
 
-npm eun dev
+npm run dev
