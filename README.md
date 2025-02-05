@@ -1,5 +1,10 @@
-##Installation
+# Plus Narrative Assessment
+
+## Installation
+
+To install dependencies, run:
+
+```Terminal```
 npm install
 
-##Execution
-npm run dev
+npm eun dev
