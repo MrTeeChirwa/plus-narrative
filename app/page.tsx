@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Search, Cloud, Sun, Heart, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
+import { Search, Cloud, Sun, Heart, MapPin, ChevronLeft, ChevronRight, Thermometer } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
 import { getCurrentWeather, getHourlyForecast, getWeatherIcon, getDailyForecastFromHourly } from "@/lib/weather";
@@ -268,8 +268,11 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex items-center gap-8">
-                  <div className="text-8xl text-white font-light">
-                    {Math.round(convertTemp(weather.main.temp, unit))}°{unit}
+                  <div className="flex items-center gap-8">
+                    <Thermometer className="w-20 h-20 text-white/80" />
+                      <div className="text-8xl text-white font-light">
+                      {Math.round(convertTemp(weather.main.temp, unit))}°{unit}
+                      </div>
                   </div>
                   <div className="bg-white/10 p-6 rounded-2xl">
                     {weather.weather[0] && getWeatherIconComponent(weather.weather[0].icon)}
